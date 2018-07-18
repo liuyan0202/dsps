@@ -1,0 +1,1 @@
+export const PLAN_LIST = 'PLAN_LIST'

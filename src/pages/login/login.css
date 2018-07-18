@@ -1,0 +1,183 @@
+.login{
+    position: relative;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #0a0e62;
+}
+.login .title{
+    font-size: 14px;
+    position: absolute;
+    left: 34px;
+    top: 40px;
+    color: #fff;
+}
+.login .bot-title{
+    width:100%;
+    position: relative;
+    flex:1;
+    background: url('https://e.zuoyebang.com/static/img/bigbg.902e59e.png') center 100% no-repeat;
+    background-size: cover;
+    transform: translate(0,14%);
+}
+
+.icon-title-icon{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 8%;
+    color: #fff;
+    text-align: center;
+}
+.img-logo{
+    position: absolute;
+    width: 110px;
+    height: 57px;
+    background: url('./../../assets/img/dsplogo.png') no-repeat;
+    background-size: cover;
+    left: -132px;
+    top: 16px;
+    animation: suspension 1.6s infinite ease-in-out;
+}
+.title-big{
+    height: 65px;
+    line-height: 65px;
+    font-size: 46px;
+    margin-bottom:0;
+}
+.title-small{
+    margin-top: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+}
+.login-form {
+    position: absolute;
+    box-sizing: border-box;
+    top: 14%;
+    right: 7%;
+    width: 332px;
+    min-height: 404px;
+    max-height: 468px;
+    background: #fff;
+    border: 2px solid #fff;
+}
+.formbox{
+    border-color:red;
+}
+.account-landing {
+    margin: 0 32px;
+    margin-top: 32px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 17px;
+}
+.account-landing span {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0,0,0,.85);
+    padding-bottom: 14px;
+    border-bottom: 2px solid #2873ff;
+}
+.error-info{    
+    width:80%;
+    margin:10px 0 10px 10%;
+    height:28px;
+    line-height: 28px;
+    background: #ff4d4f;
+    color:#fff;
+    text-indent:20px;
+    opacity: 0;
+}
+.dis{
+    width:80%;
+    margin:10px 0 10px 10%;
+    height:28px;
+    line-height: 28px;
+    background: #ff4d4f;
+    color:#fff;
+    text-indent:20px;
+    opacity: 1;
+}
+.form-wrap{
+    position: relative;
+    width:80%;
+    margin-left:10%;
+}
+.form-wrap>input{
+    width:100%;
+    display: block;
+    height:30px;
+    border:1px solid #ccc;
+    margin-top:10px;
+    text-indent: 5px;
+}
+.checkBox{
+    display: flex;
+    margin-top:10px;
+}
+.checkBox>input{
+    flex:.2;
+    height:30px;
+    border:1px solid #ccc;
+    text-indent: 5px;
+}
+
+input::-webkit-input-placeholder{ 
+   color: rgb(204, 202, 202); 
+}
+.checkBox span{
+    display: inline-block;
+    margin-left:10px;
+    flex:.8;
+}
+.checkBox span img{
+    width:100%;
+    height:100%;
+}
+.loginbtn{
+    width:80%;
+    height:45px;
+    margin-left:10%;
+    background: #2873ff;
+    color:#fff;
+    margin-top:40px;
+    border:0;
+    font-size:16px;
+    border-radius: 3px;
+}
+.forget{
+    width:80%;
+    margin-left:10%;
+    text-align: right;
+    color:rgb(204, 202, 202);
+    height:30px;
+    line-height: 30px;
+}
+.sign-info{
+    width:100%;
+    text-align: center;
+    color:rgba(255,255,255,.65);
+    position: absolute;
+    left:0;
+    bottom:-30px;
+    font-size:12px;
+}
+@keyframes suspension{
+    0% {
+        top: 16px;
+    }
+    49% {
+        top: 34px;
+    }
+    50% {
+        top: 34px;
+    }
+    98% {
+        top: 16px;
+    }
+    100% {
+        top: 16px;
+    }
+}

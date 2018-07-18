@@ -1,0 +1,134 @@
+.plan{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.plan .userinfo{
+    width:100%;
+    height:80px;
+    box-shadow: 0 1px 1px 1px #ccc;
+    display: flex;
+}
+.userphoto{
+    width:80px;
+    height:100%;
+    background: pink;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    margin-right:10px;
+}
+.userbox{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userbox .usermsg .plan-icon{
+    font-size:12px;
+}
+.usermsg>h3{
+    margin-bottom:0;
+    line-height: 1.5;
+}
+.plan-icon{
+    color:blue;
+}
+.plan-icon>b{
+    color:#333;
+    margin-right:5px;
+}
+.plan-icon .jishiben{
+    color:lightseagreen;
+    margin-left:10px;
+}
+.plan-icon>i{
+    color:yellow;
+    margin:0 5px;
+}
+.plan-tab span{
+    margin-right:30px;
+}
+.plan-tab span.active{
+    border-bottom:2px solid lightseagreen;
+}
+.plan-tab span i{
+    color:lightseagreen;
+}
+.plan-cont{
+    flex:1;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+}
+.plan-menu{
+    height:50px;
+    display: flex;
+    align-items: center;
+    background: rgba(243, 242, 242,.5);
+    padding:0 20px;
+}
+.plan-pick{
+    width:360px;
+    height:30px;
+    border:1px solid #ccc;
+    display: flex;
+    background: #fff;
+}
+a{
+    color:#666;
+    line-height: 30px;
+    text-indent: 5px;
+}
+.plan-one{
+    flex:1;
+    margin-left:15px;
+    border:0;
+}
+.plan-goal{
+    margin:0 20px;
+}
+.ant-btn > span {
+    pointer-events: none;
+    color:rgb(204, 202, 202);
+}
+.plan-search{
+    width:80px;
+    height:30px;
+    background: rgba(0,0,0,.8);
+    color:#fff;
+    border:0;
+    border-radius: 2px;
+    margin-left:20px;
+}
+.plan-box{
+    position: relative;
+    display: flex;
+    height:45px;
+    align-items: center;
+    padding:0 20px;
+}
+.plan-new{
+    background: rgb(19, 76, 184);
+    color:#fff;
+    width:80px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.positionbox{
+    position: absolute;
+    right:20px;
+    top:7.5px;
+}
+.plan-table{
+    flex:1;
+    overflow: hidden;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding:5px;
+}
+.ant-table td { white-space: nowrap; }
